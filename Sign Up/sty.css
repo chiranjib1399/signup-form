@@ -1,0 +1,101 @@
+body{
+    background-image:url("oppo.jpg");
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 50em;
+    background-attachment: fixed ;
+    
+   
+}
+.container{
+    max-width: 720px;
+    width: 100%;
+    border: 2px solid white; 
+    border-radius: 5px;
+    position:relative;
+    margin: 2px;
+    padding: 50px;
+    justify-items: center;
+    background: rgb(109, 11, 214);
+    opacity: 0.9;
+}
+.container .title {
+    font-size: 23px;
+    font-weight: 500;
+    position: relative;
+}
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+form .user-details .input-box{
+  
+margin-bottom: 15px;
+}
+.user-details .input-box input{
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid wheat;
+    padding-left: 15px;
+    font-family: 15px;
+    border-bottom-width: 4px;
+}
+.user-details .input-box .Details{
+    display: block;
+font-weight: 500;
+margin-bottom: 5px;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+ border-color: darkmagenta;
+}
+
+form .sub .details{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+form .sub .button input{
+    height: 25%;
+    width: 25%;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    background-color: khaki;
+}
+form .sub .button input:hover{
+    background: linear-gradient(-135deg, #79b0eb ,#9b31b3);
+}
+
+form .sub .login input{
+    margin-top: 10px;
+    height: 30%;
+    width: 30%;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    background-color: gold;
+}
+form .sub .login input:hover{
+    background: linear-gradient(-135deg, #71b7eb ,#9b59b6);
+}
+
+div{
+    color: aliceblue;
+
+}
+.login{
+    
+    padding-left: 20px;
+}
